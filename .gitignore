@@ -1,0 +1,67 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime / temporary files
+*.tmp
+*.temp
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+# Bot runtime state and private user data
+bot_state.json
+user_database.txt
+message_log.json
+action_log.json
+snapshot_*.json
+data/
+logs/
+backups/
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+*.bak
+*.backup
+
+# Credentials and dependencies
+*.pem
+*.key
+credentials*.json
+service-account*.json
+node_modules/

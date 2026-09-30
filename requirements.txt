@@ -1,0 +1,11 @@
+discord.py
+aiohttp
+openai
+python-dotenv
+edge-tts
+beautifulsoup4
+matplotlib
+psutil
+qrcode
+Pillow
+yt-dlp
